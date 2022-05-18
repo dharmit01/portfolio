@@ -1,0 +1,107 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #082032;
+}
+
+.navbar{
+  color: #D2D2D2;
+}
+
+.navbar-nav{
+  margin-left: auto;
+  align-items: center;
+  
+}
+
+.navbar ul li{
+  padding-left:10px;    
+}
+
+.display-5{
+  color: #D2D2D2;
+}
+
+.cover-container {
+  max-width: 75em;
+}
+
+.text-slider-items{
+  display: none;
+}
+
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #d2d2d2;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #149ddd;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.skills .progress {
+  height: 40px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 3px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #d2d2d2;
+}
+
+.skills .progress .skill .val {
+  /* float: right; */
+  font-style: normal;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.skills .progress-bar-wrap {
+  background: white;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: blue;
+}
+
+a:link { 
+  text-decoration: none; 
+}
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.projects p .val{
+  /* float: right; */
+  font-style: normal;
+  text-transform: none;
+  font-weight: 500;
+}
