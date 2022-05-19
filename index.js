@@ -10,6 +10,7 @@ if ($(".text-slider").length == 1) {
 }
 
 $(document).ready(function() {
+  AOS.init();
     if (window.location.hash) {
       var initial_nav = window.location.hash;
       if ($(initial_nav).length) {
