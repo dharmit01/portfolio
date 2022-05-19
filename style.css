@@ -105,3 +105,13 @@ a:active { text-decoration: none; }
   text-transform: none;
   font-weight: 500;
 }
+
+.skills-type .val{
+  font-style: normal;
+  font-weight: 500;
+}
+
+.skills-type{
+  font-size: 20px;
+  font-weight: 300;
+}
